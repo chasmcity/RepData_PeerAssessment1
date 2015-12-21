@@ -46,7 +46,7 @@ meanStepsInterval <- aggregate(steps ~ interval, stepDataNoNAs, mean)
 plot(meanStepsInterval$interval, meanStepsInterval$steps,
      type='l',
      main = "Average Numbers of Steps per Interval",
-     xlab = "Interval",
+     xlab = "Interval",getwd
      ylab = "Avg Number of Steps"
      )
 
